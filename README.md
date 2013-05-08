@@ -1,5 +1,5 @@
 
-MagicList improves the ArrayList by adding lots of filtering functionality, allowing you to some sql-like query to a list.
+MagicList improves the ArrayList by adding lots of filtering functionality, allowing you to make sql-like query to a list.
 
 ###Example:
 
