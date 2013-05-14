@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.dianping.magiclist;
+package org.magiclist;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.dianping.magiclist;
+package org.magiclist;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

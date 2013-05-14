@@ -1,22 +1,25 @@
-package com.dianping.magiclist;
+package org.magiclist;
 
 /**
  * @author ltebean
  */
-public class Dog {
+public class Person {
 
     private String name;
 
     private int age;
 
-    public Dog() {
+    private Dog dog;
+
+    public Person() {
         super();
     }
 
-    public Dog(String name, int age) {
+    public Person(String name, int age,Dog dog) {
         super();
         this.name = name;
         this.age = age;
+        this.dog=dog;
     }
 
     public String getName() {
@@ -35,9 +38,18 @@ public class Dog {
         this.age = age;
     }
 
+    public Dog getDog() {
+        return dog;
+    }
+
+    public void setDog(Dog dog) {
+        this.dog = dog;
+    }
+
     @Override
     public String toString() {
-        return "Dog [age=" + age + ", name=" + name + "]";
+        return "Person [age=" + age + ", dog=" + dog + ", name=" + name + "]";
     }
 
 }
+

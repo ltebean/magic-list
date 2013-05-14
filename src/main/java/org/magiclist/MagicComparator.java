@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.dianping.magiclist;
+package org.magiclist;
 
 import ognl.Ognl;
 import ognl.OgnlException;
